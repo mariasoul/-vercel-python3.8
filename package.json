@@ -3,14 +3,14 @@
   "version": "1.2.3",
   "main": "./dist/index.js",
   "license": "MIT",
-  "homepage": "https://vercel.com/docs/runtimes#official-runtimes/python",
+  "homepage": "",
   "files": [
     "dist",
     "now_init.py"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/vercel/vercel.git",
+    "url": "https://github.com/mariasoul/-vercel-python3.8.git",
     "directory": "packages/now-python"
   },
   "scripts": {
