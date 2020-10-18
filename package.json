@@ -13,6 +13,7 @@
     "url": "https://github.com/mariasoul/-vercel-python3.8.git"
   },
   "scripts": {
+    "prepare": "npm run build",
     "build": "./build.sh",
     "prepublishOnly": "./build.sh"
   },
@@ -21,5 +22,8 @@
     "@vercel/ncc": "0.24.0",
     "execa": "^1.0.0",
     "typescript": "3.9.3"
+  },
+  "dependencies": {
+    "@vercel/build-utils": "^2.5.4"
   }
 }
