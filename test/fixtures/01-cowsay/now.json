@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "builds": [{ "src": "**/**.py", "use": "@vercel/python3.8" }],
+  "probes": [
+    { "path": "/", "mustContain": "pip:RANDOMNESS_PLACEHOLDER" },
+    { "path": "/another", "mustContain": "upper:RANDOMNESS_PLACEHOLDER" }
+  ]
+}
