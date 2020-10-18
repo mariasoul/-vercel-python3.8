@@ -1,7 +1,0 @@
-{
-  "version": 2,
-  "builds": [{ "src": "api/[hello].py", "use": "@vercel/python3.8" }],
-  "probes": [
-    { "path": "/api/[hello].py", "mustContain": "hello:RANDOMNESS_PLACEHOLDER" }
-  ]
-}
